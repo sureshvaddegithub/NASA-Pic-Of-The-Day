@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="current-image-container">
+        <h1>NASA Picture of the Day</h1>
+        <img src="https://apod.nasa.gov/apod/image/2303/Doodad200mmAPOD1024crop.jpg" alt="">
+        <h3>NGC 4372 and the Dark Doodad</h3>
+        <p>The delightful Dark Doodad Nebula drifts through southern skies, a tantalizing target for binoculars toward the small constellation Musca, The Fly. The dusty cosmic cloud is seen against rich starfields just south of the Coalsack Nebula and the Southern Cross. Stretching for about 3 degrees across the center of this telephoto field of view, the Dark Doodad is punctuated near its southern tip (upper right) by yellowish globular star cluster NGC 4372. Of course NGC 4372 roams the halo of our Milky Way Galaxy, a background object some 20,000 light-years away and only by chance along our line-of-sight to the Dark Doodad. The Dark Doodad's well defined silhouette belongs to the Musca molecular cloud, but its better known alliterative moniker was first coined by astro-imager and writer Dennis di Cicco in 1986 while observing Comet Halley from the Australian outback. The Dark Doodad is around 700 light-years distant and over 30 light-years long.</p>
+    </section>
+    <form  id="search-form">
+        <p>Search for a picture of the Day</p>
+        <label for="search-input">Select a date</label>
+        <input type="date"  id="search-input" >
+        <button type="submit" id="submit">submit</button>
+        <p id="error"></p>
+    </form>
+     <ul id="search-history">
+       <p>Previous Searches</p> 
+        
+     </ul>
+
+     <script src="./index.js"></script>
+</body>
+</html>
